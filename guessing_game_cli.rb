@@ -4,7 +4,7 @@
 
 def run_guessing_game
   # binding.pry
-  random_num = rand(1..6)
+  random_num = rand(6) + 1
 
   puts "Guess the number"
   input = gets.strip
