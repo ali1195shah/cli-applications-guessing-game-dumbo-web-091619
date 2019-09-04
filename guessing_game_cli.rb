@@ -13,7 +13,7 @@ def run_guessing_game
       break
     elsif input.to_i != random_num
       puts "Sorry! The computer guessed #{random_num}."
-      break
+      
     end
   end
     if input == "exit"
