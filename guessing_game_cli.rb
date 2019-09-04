@@ -14,10 +14,11 @@ def run_guessing_game
     elsif input.to_i != random_num
       puts "Sorry! The computer guessed #{random_num}."
     end
-  end
+  else
     if input == "exit"
       puts "Goodbye!"
     end
+  end
 end
 
 
