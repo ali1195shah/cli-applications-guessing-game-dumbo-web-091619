@@ -1,9 +1,9 @@
 # Code your solution here!
 
-require 'pry'
+# require 'pry'
 
 def run_guessing_game
-  binding.pry
+  # binding.pry
   random_num = rand(1..6)
 
   puts "Guess the number"
