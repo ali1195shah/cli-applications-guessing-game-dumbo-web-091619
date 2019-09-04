@@ -2,10 +2,9 @@
 
 
 def run_guessing_game
-  random_num = rand(1..6)
-
   puts "Guess the number"
   input = gets.strip
+  random_num = rand(1..6)
 
   if input.length < 2
     if input.to_i == random_num
